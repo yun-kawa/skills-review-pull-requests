@@ -1,24 +1,22 @@
 
 
 <!--
-<<< 著者メモ: ステップ 5 >>>
+<<< 著者注: ステップ 6 >>>
 前のステップを確認した上で、このステップを開始してください。
-
 用語を定義し、docs.github.com へのリンクを設定します。
 -->
 
-## ステップ 5: 提案された変更を適用する
+## ステップ 6: プルリクエストをマージする
 
-_変更の提案、よくできました！ :partying_face:_
+_あと少しです! :heart:_
 
-では、[提案を適用する](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request) の簡単さを見てみましょう。
+これでプルリクエストを [マージ](https://docs.github.com/en/get-started/quickstart/github-glossary#merge) できます!
 
-### :keyboard: アクティビティ: 提案された変更を適用する
+### :keyboard: アクティビティ: プルリクエストをマージする
 
-1. **「Commit suggestion」** をクリックします。
-1. コミットメッセージを入力します。
-1. **「Commit changes」** をクリックします。
-1. 約 20 秒待ってから、このページ（手順を実行しているページ）を更新します。 [GitHub Actions](https://docs.github.com/en/actions) は次のステップに自動的に更新されます。
+1. **「Merge pull request」** をクリックします。
+1. ブランチ `update-game` を削除します (オプション)。
+1. 約 20 秒待ってから、このページ (手順を実行しているページ) を更新します。[GitHub Actions](https://docs.github.com/en/actions) が自動的に次のステップに更新されます。
 
 <footer>
 
