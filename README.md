@@ -1,54 +1,34 @@
-# プルリクエストをレビューする
 
-_GitHub でコラボレーションし、共に作業しましょう。_
-
-</header>
 
 <!--
-<<< 作成者メモ: コース開始 >>>
-開始ボタン、Actions の所要時間に関するメモ、そして受講者にこのコースを受講するべき理由を伝えてください。
+<<< 著者注: ステップ 1 >>>
+コースのステップを 3～5 個選択してください。
+最初のステップは常に最も難しいので、簡単なものを選んでください。
+詳しい説明については、docs.github.com へのリンクをご覧ください。
+ステップごとに新しいタブを開くようにユーザーに促してください。
 -->
 
-## ようこそ
+## ステップ 1: プルリクエストを開く
 
-すべての素晴らしいプロジェクトはコラボレーションから始まります。プルリクエストは GitHub におけるチームワークの基盤です。プルリクエストのレビューでは、コメント、変更のリクエスト、承認などを通じて、プルリクエスト固有の変更について共同作業を行い、話し合うことができます。
+_「プルリクエストの確認」へようこそ! :wave:_
 
-- **対象者**: 開発者、GitHub 初心者、Git 初心者、学生、マネージャー、チーム。
-- **学習内容**: レビューを依頼するタイミングと方法、他者のプルリクエストのレビュー方法。
-- **構築するもの**: シンプルなゲームのプルリクエストをレビューします。
-- **前提条件**: ブランチ、コミット、プルリクエストの作成方法に精通していることを前提としています。これらの知識は、[GitHub 入門](https://github.com/skills/introduction-to-github) コースで習得できます。
-- **所要時間**: このコースは 30 分以内で完了します。
+プルリクエストを開いて始めましょう。
 
-このコースでは、以下の内容を学習します。
+**プルリクエストとは?**: プルリクエストは共同作業の場となります。プルリクエストは、自分のブランチの変更内容を他のユーザーに示すものです。このプルリクエストは、自分のブランチに加えた変更内容を保持し、それを `main` ブランチに適用することを提案します。
 
-1. プルリクエストを作成する
-2. 自分にレビューを投稿する
-3. レビューを投稿する
-4. 変更を提案する
-5. 変更を適用する
-6. プルリクエストをマージする
+![pull-request](https://github.com/kuboctopus/review-pull-requests/blob/main/images/pull-request.jpg)
 
-### このコースの開始方法
+### :keyboard: アクティビティ: プルリクエストを作成する
 
-<!-- コースを開始するには、JavaScript で次のコマンドを実行します。
-'https://github.com/new?' + new URLSearchParams({
-template_owner: 'kuboctopus',
-template_name: 'review-pull-requests',
-owner: '@me',
-name: 'skills-review-pull-requests',
-description: 'My clone repository',
-visibility: 'public',
-}).toString()
--->
-
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=kuboctopus&template_name=review-pull-requests&owner=%40me&name=skills-review-pull-requests&description=My+clone+repository&visibility=public)
-
-1. **Start course** を右クリックし、リンクを新しいタブで開きます。
-2. 新しいタブでは、ほとんどのプロンプトが自動的に入力されます。
-- オーナーとして、リポジトリをホストする個人アカウントまたは組織を選択します。
-- プライベートリポジトリは [Actions の分単位での課金](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions) が発生するため、パブリックリポジトリを作成することをお勧めします。
-- 下にスクロールし、フォームの下部にある [**Create repository**] ボタンをクリックします。
-3. 新しいリポジトリが作成されたら、約 20 秒待ってからページを更新します。新しいリポジトリの README に記載されている手順に従ってください。
+1. リポジトリの [**Pull requests**] タブをクリックします。
+2. [**New pull request**] をクリックします。
+3. **base:** ドロップダウンで、**main** が選択されていることを確認します。
+4. **compare:** ドロップダウンを選択し、`update-game` をクリックします。
+5. **Create pull request** をクリックします。
+6. プルリクエストのタイトルを入力します：`Update the game over message`。
+7. プルリクエストの説明を入力します：`Update the game over message so people know how to play again!`
+8. **Create pull request** をクリックします。
+9. 約 20 秒待ってから、このページ（手順に従っているページ）を更新します。[GitHub Actions](https://docs.github.com/en/actions) が自動的に次のステップに更新されます。
 
 <footer>
 
