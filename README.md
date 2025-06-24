@@ -1,30 +1,24 @@
 
 
 <!--
-  <<< Author notes: Step 4 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+<<< 著者メモ: ステップ 5 >>>
+前のステップを確認した上で、このステップを開始してください。
+
+用語を定義し、docs.github.com へのリンクを設定します。
 -->
 
-## ステップ 4: 変更を提案する
+## ステップ 5: 提案された変更を適用する
 
-_プルリクエストのレビュー、お疲れ様でした :sparkles:_
+_変更の提案、よくできました！ :partying_face:_
 
-プルリクエストをレビューするさまざまな方法を確認できたので、次は _変更を提案_ の使い方を学びましょう。
+では、[提案を適用する](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request) の簡単さを見てみましょう。
 
-**_変更を提案_ とは?**: この機能を使用すると、プルリクエストに変更を提案し、作成者はボタンをクリックするだけでコミットできます。
+### :keyboard: アクティビティ: 提案された変更を適用する
 
-### :keyboard: アクティビティ: 変更を提案する
-
-1. プルリクエストで、**Files changed** をクリックします。
-1. `index.html` の変更箇所を見つけます。
-1. ページ左側の行番号の横にカーソルを合わせます。
-1. 青いプラスアイコンをクリックします。
-2. コメントフォームが表示されたら、「**Add a suggestion**」ボタンをクリックします。<br>
-![add-a-suggestion-button](https://user-images.githubusercontent.com/97056108/184449714-61e8ee51-824a-48c1-9436-2dfd67f2c070.png)
-1. 提案を編集します。
-2. 「**Add a single comment**」をクリックします。
-3. 約20秒待ってから、このページ（手順を実行しているページ）を更新します。[GitHub Actions](https://docs.github.com/en/actions)が自動的に次のステップに更新されます。
+1. **「Commit suggestion」** をクリックします。
+1. コミットメッセージを入力します。
+1. **「Commit changes」** をクリックします。
+1. 約 20 秒待ってから、このページ（手順を実行しているページ）を更新します。 [GitHub Actions](https://docs.github.com/en/actions) は次のステップに自動的に更新されます。
 
 <footer>
 
